@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style></style>
+    <title>Clase 2</title>
+</head>
+<body>
+    <h1>Lista de tareas</h1>
+
+    <form id="agregarTareaForm" action=""> <!-- le agregamos un id para luego poder manejarlo-->
+
+
+        <label for="tarea">Nueva Tarea </label>
+        <input type="text" id="tarea" required> <!-- el id debe coincidir con el for del label-->
+
+
+        <button type="submit">Agregar Tarea</button>
+    
+    </form>
+
+    <ul id="tareasListas">
+        
+    </ul>
+
+    <button id="eliminarTareas">Eliminar</button>
+
+
+
+    <!-- Por buenas practicas se pone al final del body el script -->
+    <script src="app.js"></script>
+</body>
+</html>
